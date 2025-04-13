@@ -46,7 +46,3 @@ by
       rw [h]
       simp [ih, List.append]
 
-#eval myReverse [1, 2, 3] -- Output: [3, 2, 1]
-#eval myReverse [] -- Output: []
-#eval myReverse [1] -- Output: [1]
-#eval myReverse [1, 2] -- Output: [2, 1]

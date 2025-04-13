@@ -1,4 +1,3 @@
--- A helper to decode RLE results back into the original string.
 def decodeRLE (lst : List (Char × Nat)) : String :=
   match lst with
   | [] => ""

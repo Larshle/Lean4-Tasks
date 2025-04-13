@@ -38,10 +38,3 @@ def longestCommonSubsequence_spec (str1 : String) (str2 : String) (result : Stri
     isSubsequence candidate str2 = true →
     candidate.length ≤ result.length
   -- << SPEC END >>
-
--- #eval checks
-#eval longestCommonSubsequence "" ""                   -- Expect ""
-#eval longestCommonSubsequence "ABCBDAB" "BDCABA"      -- e.g. "BCBA"
-#eval longestCommonSubsequence "AAAA" "BBAA"           -- e.g. "AA"
-#eval longestCommonSubsequence "HELLO" "YELLOW"        -- e.g. "ELLO"
-#eval longestCommonSubsequence "ABCD" "ACBAD"          -- e.g. "ABD"
