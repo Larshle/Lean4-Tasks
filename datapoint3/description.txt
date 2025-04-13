@@ -1,0 +1,11 @@
+-----Description-----
+This task requires writing a Lean 4 method that, given a list of integers, returns one of its Longest Increasing Subsequences (LIS). A subsequence of a list is formed by removing zero or more elements from the original list without changing the order of the remaining elements. This solution must satisfy:
+
+1. The returned subsequence is strictly increasing: every element is strictly greater than the preceding one.
+2. There is no strictly increasing subsequence in the input list that is longer than the returned subsequence.
+
+-----Input-----
+arr: A list of integers.
+
+-----Output-----
+A list of integers representing one of the longest strictly increasing subsequences in 'arr'.

@@ -1,0 +1,27 @@
+[
+  {
+    "input": { "str1": "", "str2": "" },
+    "expected": "",
+    "unexpected": ["A", "B"]
+  },
+  {
+    "input": { "str1": "ABCBDAB", "str2": "BDCABA" },
+    "expected": "BCBA",
+    "unexpected": ["BCD", "ABCBDAB"]
+  },
+  {
+    "input": { "str1": "AAAA", "str2": "BBAA" },
+    "expected": "AA",
+    "unexpected": ["AAA"]
+  },
+  {
+    "input": { "str1": "HELLO", "str2": "YELLOW" },
+    "expected": "ELLO",
+    "unexpected": ["LLO", "HEL"]
+  },
+  {
+    "input": { "str1": "ABCD", "str2": "ACBAD" },
+    "expected": "ABD",
+    "unexpected": ["ACD"]
+  }
+]

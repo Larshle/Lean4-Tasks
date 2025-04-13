@@ -1,0 +1,14 @@
+-----Description-----
+This task requires writing a Lean 4 method that sorts a list of integers using the merge sort algorithm. The method must return a new list that meets two constraints:
+1. The elements are sorted in non-decreasing order.
+2. The output list is a permutation of the original list (i.e., it contains exactly the same elements as the input, with no additions or omissions).
+
+Merge sort works by recursively splitting the list into two halves, sorting each half, and then merging the two sorted halves back together.
+
+-----Input-----
+The input consists of a single list of integers, `arr`.
+
+-----Output-----
+The output is a new list of integers, which:
+- Has the same length and elements as `arr`.
+- Is sorted in non-decreasing order.

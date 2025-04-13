@@ -1,0 +1,13 @@
+-----Description-----
+This task implements a method to find the Longest Common Subsequence (LCS) between two given strings. The LCS of two strings is the longest sequence of characters that appear left-to-right (but not necessarily contiguously) in both strings. For example, the LCS of \"ABCBDAB\" and \"BDCABA\" is \"BCBA\" with length 4.
+
+The solution must:
+1. Return a valid subsequence of both input strings.
+2. Have the maximum possible length among all subsequences common to both strings.
+
+-----Input-----
+str1: The first string.
+str2: The second string.
+
+-----Output-----
+A string that is the LCS of str1 and str2.
