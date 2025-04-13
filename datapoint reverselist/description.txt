@@ -1,0 +1,7 @@
+-----Description-----
+This requires function that reverses a list of integers. The function, named myReverse, accepts an input list and returns a new list with the elements in reverse order.
+-----Input-----
+A list of integers.
+-----Output-----
+A list of integers which is the reversal of the input.
+Additional requirement: Provide a formal specification and complete proof that reversing the list twice returns the original list.
